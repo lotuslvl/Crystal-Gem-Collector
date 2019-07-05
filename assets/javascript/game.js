@@ -41,6 +41,7 @@ function setrandomNum() {
 
 
 function checkWin() {
+    $("#my_audio").get(0).play();
                 
     if(usernum===randomnum) {
         alert("You Win!");
